@@ -23,7 +23,7 @@ blockquote {
 }
 
 
-h1, h2, {
+h1, h2 {
   font-family: 'Abril Fatface', cursive;
   color: #222;
 }
@@ -58,8 +58,8 @@ blockquote, h3, h4, ul {
 p {
   font-family: 'Merriweather', serif;
   font-size: 15px;
-  margin-top 0;
-  line-height: 0;
+  margin-top: 0;
+  line-height: 2em;
 }
 
 ul {
@@ -89,9 +89,10 @@ h2 {
   background: #454441;
   color: white;
   font-size: 40px;
+  font-weight: lighter;
   padding: 35px 10px 40px 30px;
   position: relative;
-   }
+}
 
 h2::before {
   content: '”';
