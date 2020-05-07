@@ -1,0 +1,107 @@
+body {
+    background-image: linear-gradient(to right, #c9c9c5, white, #c9c9c5);
+}
+
+#photo-viewer {
+    display: flex;
+    width: 600px;
+    height:300px;
+    margin: 50px auto;
+    box-shadow: 10px 5px 10px #ababa7;
+}
+
+#photo {
+    height: 300px;
+    width: 550px;
+}
+
+button {
+    border: none;
+    flex-grow: 1;
+    background: #c9c9c5;
+}
+
+.rbutton {
+    transform: rotate(0.5turn);
+}
+
+button:hover {
+    background: #deded9;
+}
+
+.viewer {
+    position: relative;
+    flex-grow: 12;
+}
+
+.gray-container {
+    position: absolute;
+    width: 550px;
+    height: 80px;
+    background: #000000;
+    opacity: 0.6;
+    top: 220px;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+    margin-left: 10px;
+    font-weight: 50;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+p{
+    color: white;
+    margin-left: 10px;
+    font-weight: 200;
+    margin-top: 5px;
+}
+
+#thumbnails {
+    display: flex;
+    width: 1100px;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.small-pics {
+    flex-direction: row;
+    display: flex;
+    width: 80px;
+    height: 60px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    padding: 5px;
+    position: relative;
+}
+
+.small-pics:hover {
+    border: 5px solid gray;
+}
+
+.title {
+    flex-direction: row;
+    display: none;
+    position: relative;
+    padding: 5px;
+    border-radius: 5px;
+    top:-35px;
+    left: 85px;
+    width: 80px;
+    height: 20px;
+    font-size: medium;
+    background-color: rgb(207, 204, 204);
+    color: rgb(49, 48, 48);
+}
+
+#thumbnails:hover .title {
+    display: block
+}
+
+
+
+
