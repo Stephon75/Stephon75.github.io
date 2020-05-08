@@ -69,14 +69,12 @@ p{
 }
 
 .small-pics {
-    flex-direction: row;
-    display: flex;
     width: 80px;
     height: 60px;
-    border: 1px solid #ddd;
+    border: 1px solid rgb(177, 174, 174);
     border-radius: 30px;
     padding: 5px;
-    position: relative;
+    margin: 0 5px;
 }
 
 .small-pics:hover {
@@ -84,13 +82,12 @@ p{
 }
 
 .title {
-    flex-direction: row;
     display: none;
     position: relative;
     padding: 5px;
     border-radius: 5px;
     top:-35px;
-    left: 85px;
+    left: 90px;
     width: 80px;
     height: 20px;
     font-size: medium;
@@ -99,7 +96,7 @@ p{
 }
 
 #thumbnails:hover .title {
-    display: block
+    display: block;
 }
 
 

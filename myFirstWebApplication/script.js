@@ -81,10 +81,10 @@ $('.lbutton').click(() => {
 })
 
 imagesData.forEach((photo, currentPhoto) => {
-  $('#thumbnails').append(`<div class="title">${imagesData[currentPhoto].title}</div>`);  
   $('#thumbnails').append(`<img class="small-pics" data-index="${currentPhoto}" src="${imagesData[currentPhoto].photo}">`);
-    
-
+  $('#thumbnails').append(`<div class="title">${imagesData[currentPhoto].title}</div>`);
+ 
+  
   $('.small-pics').click(() => {
   let currentPhotoClicked =
   $(event.target).attr('data-index');
